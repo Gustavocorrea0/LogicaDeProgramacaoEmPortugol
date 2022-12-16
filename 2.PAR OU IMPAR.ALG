@@ -1,32 +1,32 @@
 Algoritmo "Par ou Impar"
-// Disciplina   : [Lógica e Fundamentos de Programação]
+// Disciplina   : [LÃ³gica e Fundamentos de ProgramaÃ§Ã£o]
 // Professor   : Thiago Momesso de Menezes
-// Descrição   : Define se um número é par ou impar.
+// DescriÃ§Ã£o   : Define se um nÃºmero Ã© par ou impar.
 // Autor(a)    : Gustavo Alfredo
 // Data atual  : 03/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    N: inteiro
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    
    escreval("              Agoritmo definidor de Par ou Impar                 ")
    escreval("")
-   escreval("Bem vindo ao definidor de números pares e impares")
+   escreval("Bem vindo ao definidor de nÃºmeros pares e impares")
    escreval("")
-   escreva("Digite o número que você deseja descobrir: ")
+   escreva("Digite o nÃºmero que vocÃª deseja descobrir: ")
    leia(N)
 
    se (N % 2 = 0) entao
-      escreval("--------------------")
-      escreval("O Número",N," é Par.")
-      escreval("--------------------")
+      escreval("+--------------------+")
+      escreval("| O NÃºmero",N," Ã© Par.")
+      escreval("+--------------------+")
    senao
-      escreval("-----------------------")
-      escreval("O Número",N," é Impar.  ")
-      escreval("-----------------------")
+      escreval("+------------------------+")
+      escreval("| O NÃºmero",N," Ã© Impar. ")
+      escreval("+------------------------+")
    fimse
 
    escreval("Para fazer um novo teste precione Esc e depois F9")
