@@ -1,11 +1,10 @@
-Algoritmo "Ordenação Númerica"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Thiago Momesso de Menezes
-// Descrição   : Este programa coloca números em ordem crecente
+Algoritmo "OrdenaÃ§Ã£o NÃºmerica"
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
+// DescriÃ§Ã£o   : Este programa coloca nÃºmeros em ordem crecente
 // Autor(a)    : Gustavo Alfredo
 // Data atual  : 01/04/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    x: inteiro
    y: inteiro
    z: inteiro
@@ -15,18 +14,18 @@ Var
    maior: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("         Bem vindo ao algoritmo de ordenação númerica         ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("         Bem vindo ao algoritmo de ordenaÃ§Ã£o nÃºmerica         ")
    escreval()
-   escreval("Todos os numeros digitados, serão organizados em ordem crecente")
+   escreval("Todos os numeros digitados, serÃ£o organizados em ordem crecente")
    escreval()
-   escreva("Digite o Primeiro número: ")
+   escreva("Digite o Primeiro nÃºmero: ")
    leia(x)
    escreval("---------------------------------------------------------------")
-   escreva("Digite o Segundo número: ")
+   escreva("Digite o Segundo nÃºmero: ")
    leia(y)
    escreval("---------------------------------------------------------------")
-   escreva("Digite o Terceiro número: ")
+   escreva("Digite o Terceiro nÃºmero: ")
    leia(z)
    escreval("---------------------------------------------------------------")
 
@@ -84,8 +83,8 @@ Inicio
       maior <- z //(dois iguais 2)
    fimse
    
-   escreval("Sua ordem é", menor, medio, maior)
+   escreval("Sua ordem Ã©", menor, medio, maior)
    escreval()
-   escreval("Fim. Para efetuar outra ordenação pressione Esc e depois F9")
+   escreval("Fim. Para efetuar outra ordenaÃ§Ã£o pressione Esc e depois F9")
 
 Fimalgoritmo
